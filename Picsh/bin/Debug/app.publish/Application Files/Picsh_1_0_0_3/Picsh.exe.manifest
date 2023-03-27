@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Picsh.exe" version="1.0.0.3" publicKeyToken="85777c2299577d50" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="qwe.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Picsh" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Picsh.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC マニフェスト オプション
+             Windows のユーザー アカウント制御のレベルを変更するには、
+             requestedExecutionLevel ノードを以下のいずれかで置換します。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            requestedExecutionLevel 要素を指定すると、ファイルおよびレジストリの仮想化が無効にされます。
+            アプリケーションが下位互換性を保つためにこの仮想化を要求する場合、この要素を
+            削除します。
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Data.Entity" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Picsh.exe" size="12864">
+      <assemblyIdentity name="Picsh" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>SHBF3CNQ/5SvLwWYj59UnPqM5rI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Picsh.exe.config" size="69">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ixRjjbYm3JJJLGYuOwWjrGSF1Uk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="qwe.ico" size="766">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>odC1P4TdYSc9r99CcOGZbjKmVrA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <fileAssociation extension=".gif" description="GIF形式イメージファイル" progid="3" defaultIcon="qwe.ico" xmlns="urn:schemas-microsoft-com:clickonce.v1" />
+  <fileAssociation extension=".jpg" description="JPEG形式イメージファイル" progid="1" defaultIcon="qwe.ico" xmlns="urn:schemas-microsoft-com:clickonce.v1" />
+  <fileAssociation extension=".png" description="PNG形式イメージファイル" progid="2" defaultIcon="qwe.ico" xmlns="urn:schemas-microsoft-com:clickonce.v1" />
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- このアプリケーションがテストされ、動作するよう設計された Windows バージョンの
+           一覧。適切な要素をコメント解除すると、最も互換性のある環境を Windows が
+           自動的に選択します。-->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+  <application xmlns="urn:schemas-microsoft-com:asm.v3">
+    <windowsSettings>
+      <dpiAware xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">per screen</dpiAware>
+      <longPathAware xmlns="http://schemas.microsoft.com/SMI/2016/WindowsSettings">true</longPathAware>
+    </windowsSettings>
+  </application>
+<publisherIdentity name="CN=Yokokiri, OU=Yokokiri Android Dev, O=Yokokiri, L=Niigata, S=Niigata, C=JP" issuerKeyHash="0b4ebbc8946072f5164ec942135139eabd15a20d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>izVXcP20Gw0REQSWBLi5qC4QjA0=</DigestValue></Reference></SignedInfo><SignatureValue>fRwULWPIrvswCXny887aqWc7IO7Bxfa2r574j/S+Y23fFE0NwMI5cSwrdqLeye9FGA/l9MZY+KBoXKFhsYjkujM6MSboJ5aGJL30n/g8c7RazaJysTi6kvvjF8OhmfzfSdtCTCbwbAsMnUHIp+/GwdDO7uN6GQBO9NP8nQ9hL4u3+isaT7cy/PLSBt0qkQ5QQNoEIVxR2+XvJyI8y7ClajfKdPqS5lRAqE67YK6DdfMayq5CiAXhf9NQvnhS8YRoCWugaYNQRO9FFl53c14OuJjfcbYNpPPJ6ytgEBP0lwy8NkNw3L+1+APU7eJAMP9cwMtolOdmEnNsCvdNFpProQ==</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>nfUhxWWLQI/6ufT/W7axbLKMs1dNv09RU643WmA/4pXWwV5I05T7v08EpJTZRgYbI6o0SXL4S49XB24ExM3GEWRsQrrO5yYOwDD//vg8XCEVNWH6Pid910QkhlT/0lD0E/Qy60w9wwWV5tmaluKhRz7VSvoVIBwNiPCcWyK8Tq3sFgdZMa9LYLUq97t6aEkkX9cjbqjfwGMEtQMYPdRJvVHFUaTtHZmU2OPzkIsuq3Inpu35SKChbyDh3yAMmny9HfImKRvEgSOvZwD9srLsb7uRLKl/pdVTBknlFSH4Bc/yPH96+wipLKA/FaIU1Mx+fsp8ev5olepMvgpOzIK60w==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0d8c102ea8b9b804960411110d1bb4fd7057358b" Description="" Url=""><as:assemblyIdentity name="Picsh.exe" version="1.0.0.3" publicKeyToken="85777c2299577d50" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Yokokiri, OU=Yokokiri Android Dev, O=Yokokiri, L=Niigata, S=Niigata, C=JP</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>TjlqijMzPJNuTX2NpmkDrK5ekKM=</DigestValue></Reference></SignedInfo><SignatureValue>hoHUpNp/AAy5Mznr6ZivULIi7FBjeebshNSYtdtqdOHER9Gp/MN7cXGI5UyIFj2Tqsvp+9DpdvJxbhIhvsS9pYYTflrigiJ6wYQR2d50MLnKzjNE9KgodCsDAJqEgpJOklaJL/L8uisz5jc3zvsNlr8L4xO9EQjfgF61x0yAweDzTV7zjFpcdDDP2JaFb+hIj8/ABW6kjtb+CcmZpOgMwoIqXiBh/R2A8VCwKdLJ8QiNBR7Fu6N07GJZY36nMy5NO8HKvmMtgoE/vclatcJX96dARUfgEzAp6jD4tkgF98G07/dEaqOIoO5MhpcXBYjRQSbXyqUyp2yZb0vdYhwK2A==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>nfUhxWWLQI/6ufT/W7axbLKMs1dNv09RU643WmA/4pXWwV5I05T7v08EpJTZRgYbI6o0SXL4S49XB24ExM3GEWRsQrrO5yYOwDD//vg8XCEVNWH6Pid910QkhlT/0lD0E/Qy60w9wwWV5tmaluKhRz7VSvoVIBwNiPCcWyK8Tq3sFgdZMa9LYLUq97t6aEkkX9cjbqjfwGMEtQMYPdRJvVHFUaTtHZmU2OPzkIsuq3Inpu35SKChbyDh3yAMmny9HfImKRvEgSOvZwD9srLsb7uRLKl/pdVTBknlFSH4Bc/yPH96+wipLKA/FaIU1Mx+fsp8ev5olepMvgpOzIK60w==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIDkjCCAnqgAwIBAgIJAMjy8qlbcCvDMA0GCSqGSIb3DQEBCwUAMHYxCzAJBgNVBAYTAkpQMRAwDgYDVQQIEwdOaWlnYXRhMRAwDgYDVQQHEwdOaWlnYXRhMREwDwYDVQQKEwhZb2tva2lyaTEdMBsGA1UECxMUWW9rb2tpcmkgQW5kcm9pZCBEZXYxETAPBgNVBAMTCFlva29raXJpMCAXDTIyMTAwNDEwMzIzMloYDzIyOTYwNzE5MTAzMjMyWjB2MQswCQYDVQQGEwJKUDEQMA4GA1UECBMHTmlpZ2F0YTEQMA4GA1UEBxMHTmlpZ2F0YTERMA8GA1UEChMIWW9rb2tpcmkxHTAbBgNVBAsTFFlva29raXJpIEFuZHJvaWQgRGV2MREwDwYDVQQDEwhZb2tva2lyaTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJ31IcVli0CP+rn0/1u2sWyyjLNXTb9PUVOuN1pgP+KV1sFeSNOU+79PBKSU2UYGGyOqNEly+EuPVwduBMTNxhFkbEK6zucmDsAw//74PFwhFTVh+j4nfddEJIZU/9JQ9BP0MutMPcMFlebZmpbioUc+1Ur6FSAcDYjwnFsivE6t7BYHWTGvS2C1Kve7emhJJF/XI26o38BjBLUDGD3USb1RxVGk7R2ZlNjj85CLLqtyJ6bt+UigoW8g4d8gDJp8vR3yJikbxIEjr2cA/bKy7G+7kSypf6XVUwZJ5RUh+AXP8jx/evsIqSygPxWiFNTMfn7KfHr+aJXqTL4KTsyCutMCAwEAAaMhMB8wHQYDVR0OBBYEFAtOu8iUYHL1Fk7JQhNROeq9FaINMA0GCSqGSIb3DQEBCwUAA4IBAQBfWNq/VS1n16wv4f9x/tDsLEPypQNn5sfad1bcuvKOivGYvMCOWvilLkEgSy9wrqOMF3fxnzVSJgyxof2YumKW/gYVfINPgrabQyOUK+9FWFqKYtiN3ZOqWCuey2stUcUkIoLxM70LHZYbDAdCnTgrad2MOYXFGOIJP/N/78XUai4wri1Wwv+1BUjm8HHWrOAWy6mbvs4l3rjDvu0BZIA1646KtKGO/aVPOhLL1QNOy0cUTUdwOojVSpR5MkADjo/x2JUGziHijqZC+1icPkOVJyBZNiIZeS4k1a2XTJ1+/xElA4PxfWckunts6hwr+qP6w5FlOz+iEhiNpxVHc0Mf</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

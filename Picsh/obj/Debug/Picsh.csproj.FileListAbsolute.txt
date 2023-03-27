@@ -1,0 +1,35 @@
+C:\Users\user\AppData\Local\Temporary Projects\Picsh\bin\Debug\Picsh.exe
+C:\Users\user\AppData\Local\Temporary Projects\Picsh\bin\Debug\Picsh.pdb
+C:\Users\user\AppData\Local\Temporary Projects\Picsh\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\user\AppData\Local\Temporary Projects\Picsh\obj\Debug\Picsh.Form1.resources
+C:\Users\user\AppData\Local\Temporary Projects\Picsh\obj\Debug\Picsh.Properties.Resources.resources
+C:\Users\user\AppData\Local\Temporary Projects\Picsh\obj\Debug\Picsh.csproj.GenerateResource.Cache
+C:\Users\user\AppData\Local\Temporary Projects\Picsh\obj\Debug\Picsh.exe
+C:\Users\user\AppData\Local\Temporary Projects\Picsh\obj\Debug\Picsh.pdb
+C:\Users\user\Documents\Visual Studio 2008\Projects\Picsh\Picsh\obj\Debug\Picsh.exe
+C:\Users\user\Documents\Visual Studio 2008\Projects\Picsh\Picsh\obj\Debug\Picsh.pdb
+C:\Users\user\Documents\Visual Studio 2008\Projects\Picsh\Picsh\bin\Debug\Picsh.exe.config
+C:\Users\user\Documents\Visual Studio 2008\Projects\Picsh\Picsh\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2008\Projects\Picsh\Picsh\obj\Debug\Picsh.Form1.resources
+C:\Users\user\Documents\Visual Studio 2008\Projects\Picsh\Picsh\obj\Debug\Picsh.Properties.Resources.resources
+C:\Users\user\Documents\Visual Studio 2008\Projects\Picsh\Picsh\obj\Debug\Picsh.csproj.GenerateResource.Cache
+C:\Users\user\Documents\Visual Studio 2008\Projects\Picsh\Picsh\bin\Debug\Picsh.exe.manifest
+C:\Users\user\Documents\Visual Studio 2008\Projects\Picsh\Picsh\bin\Debug\Picsh.application
+C:\Users\user\Documents\Visual Studio 2008\Projects\Picsh\Picsh\bin\Debug\Picsh.exe
+C:\Users\user\Documents\Visual Studio 2008\Projects\Picsh\Picsh\bin\Debug\Picsh.pdb
+C:\Users\user\Documents\Visual Studio 2008\Projects\Picsh\Picsh\obj\Debug\Picsh.exe.manifest
+C:\Users\user\Documents\Visual Studio 2008\Projects\Picsh\Picsh\obj\Debug\Picsh.application
+C:\Users\askke\Documents\Visual C# 移植\Picsh\Picsh\bin\Debug\Picsh.exe.config
+C:\Users\askke\Documents\Visual C# 移植\Picsh\Picsh\bin\Debug\Picsh.exe.manifest
+C:\Users\askke\Documents\Visual C# 移植\Picsh\Picsh\bin\Debug\Picsh.application
+C:\Users\askke\Documents\Visual C# 移植\Picsh\Picsh\bin\Debug\Picsh.exe
+C:\Users\askke\Documents\Visual C# 移植\Picsh\Picsh\bin\Debug\Picsh.pdb
+C:\Users\askke\Documents\Visual C# 移植\Picsh\Picsh\obj\Debug\Picsh.csproj.AssemblyReference.cache
+C:\Users\askke\Documents\Visual C# 移植\Picsh\Picsh\obj\Debug\Picsh.Form1.resources
+C:\Users\askke\Documents\Visual C# 移植\Picsh\Picsh\obj\Debug\Picsh.Properties.Resources.resources
+C:\Users\askke\Documents\Visual C# 移植\Picsh\Picsh\obj\Debug\Picsh.csproj.GenerateResource.cache
+C:\Users\askke\Documents\Visual C# 移植\Picsh\Picsh\obj\Debug\Picsh.csproj.CoreCompileInputs.cache
+C:\Users\askke\Documents\Visual C# 移植\Picsh\Picsh\obj\Debug\Picsh.exe.manifest
+C:\Users\askke\Documents\Visual C# 移植\Picsh\Picsh\obj\Debug\Picsh.application
+C:\Users\askke\Documents\Visual C# 移植\Picsh\Picsh\obj\Debug\Picsh.exe
+C:\Users\askke\Documents\Visual C# 移植\Picsh\Picsh\obj\Debug\Picsh.pdb
